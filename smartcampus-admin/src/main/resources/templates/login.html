@@ -39,7 +39,7 @@
                 <input type="password" class="form-control" placeholder="密码" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" type="submit" onclick="form=document.getElementById('loginform');form.action='/login'">登录</a>
+                <a class="btn btn-default submit" type="submit" onclick="form=document.getElementById('loginform');form.action='/admin/userLogin'">登录</a>
                 <a class="reset_pass" href="#">忘记密码?</a>
               </div>
 
@@ -47,7 +47,7 @@
 
               <div class="separator">
                 <p class="change_link">新同学?
-                  <a href="#signup" class="to_register"> 注册新账号 </a>
+                  <a href="/admin/register" class="to_register"> 注册新账号 </a>
                 </p>
 
                 <div class="clearfix"></div>
@@ -76,14 +76,14 @@
                 <input type="password" class="form-control" placeholder="密码" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" type="submit" onclick="form=document.getElementById('registerform');form.action='/login'">注册</a>
+                <a class="btn btn-default submit" type="submit" onclick="form=document.getElementById('registerform');form.action='/admin/uregister'">注册</a>
               </div>
 
               <div class="clearfix"></div>
 
               <div class="separator">
                 <p class="change_link">已注册 ?
-                  <a href="#signin" class="to_register">登录</a>
+                  <a href="/admin/login" class="to_register">登录</a>
                 </p>
 
                 <div class="clearfix"></div>
