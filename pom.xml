@@ -49,7 +49,7 @@
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>1.3.2</version>
 		</dependency>
-		
+
 		<!-- 热部署 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -70,6 +70,13 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>net.sourceforge.nekohtml</groupId>
+			<artifactId>nekohtml</artifactId>
+			<version>1.9.22</version>
+		</dependency>
+
 
 		<!--jsp支持 -->
 		<!-- servlet 依赖. -->
@@ -134,16 +141,9 @@
 				</configuration>
 			</plugin>
 			<!-- mybatis generator 自动生成代码插件 -->
-			<!-- <plugin>
-				<groupId>org.mybatis.generator</groupId>
-				<artifactId>mybatis-generator-maven-plugin</artifactId>
-				<version>1.3.1</version>
-				<configuration>
-					<configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
-					<overwrite>true</overwrite>
-					<verbose>true</verbose>
-				</configuration>
-			</plugin> -->
+			<!-- <plugin> <groupId>org.mybatis.generator</groupId> <artifactId>mybatis-generator-maven-plugin</artifactId> 
+				<version>1.3.1</version> <configuration> <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile> 
+				<overwrite>true</overwrite> <verbose>true</verbose> </configuration> </plugin> -->
 		</plugins>
 		<finalName>SmartCampus</finalName>
 	</build>

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: smartcampus-web
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: MyDELL
+Built-By: Administrator
 Implementation-Vendor-Id: com.smartcampus
 Build-Jdk: 1.8.0_181
 Implementation-URL: http://maven.apache.org/smartcampus-web
